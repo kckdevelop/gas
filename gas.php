@@ -3,9 +3,9 @@ date_default_timezone_set('Asia/Jakarta');
 include "function_gas.php";
 ulang:
 // function change(){
-echo color("red","                    HANGGAR VOCER\n");
+echo color("green","                    Rohman Script\n");
 echo color("white","           Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
-echo color("white","                    Never Extinct         \n");
+echo color("white","                    Klaim Voucher Gofood        \n");
 echo color("white","                  Format Kode 62*** \n");
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
